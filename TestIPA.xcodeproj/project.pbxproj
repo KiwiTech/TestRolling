@@ -476,6 +476,7 @@
 				D3B27ADF1905A87C0074E0C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3B27AE01905A87C0074E0C9 /* Build configuration list for PBXNativeTarget "TestIPATests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +485,7 @@
 				D3B27AE21905A87C0074E0C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
