@@ -1,22 +1,19 @@
 //
-//  TestSKAppDelegate.m
+//  VJAppDelegate.m
 //  TestIPA
 //
-//  Created by Vijay Deep Gupta on 2/18/14.
+//  Created by Vijay Deep Gupta on 4/22/14.
 //  Copyright (c) 2014 Vijay Deep Gupta. All rights reserved.
 //
 
-#import "TestSKAppDelegate.h"
+#import "VJAppDelegate.h"
 
-@implementation TestSKAppDelegate
+@implementation VJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
-    UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
-    splitViewController.delegate = (id)navigationController.topViewController;
-    return YES;        
+    return YES;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
